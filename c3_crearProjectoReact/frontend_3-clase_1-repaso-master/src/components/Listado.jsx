@@ -6,7 +6,7 @@ const Listado = ({listadoDeFrases}) => {
     
     useEffect(() => {
         setFrasesState([...frasesState, listadoDeFrases])
-    }, [listadoDeFrases])
+    }, [listadoDeFrases])    
 
     // EJERCICIO PARA REFACTORIZAR DESPUES DEL RETURN
     return (
